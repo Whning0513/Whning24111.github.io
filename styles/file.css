@@ -1,0 +1,46 @@
+/* 设置页面背景颜色和字体 */
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+/* 设置标题的颜色 */
+h1 {
+    color: rgb(128, 105, 0);
+    text-align: center;
+}
+
+/* 设置段落的字体颜色和边距 */
+p {
+    color: darkblue;
+    margin: 20px;
+}
+/* 设置链接的颜色和鼠标悬停效果 */
+a {
+    color: rgb(71, 193, 93); /* 链接的颜色 */
+    text-decoration: none; /* 移除默认的下划线 */
+}
+
+a:hover {
+    color: red; /* 鼠标悬停时链接的颜色 */
+}
+
+/* 设置盒子模型的宽高和边框 */
+div {
+    width: 300px; /* 盒子的宽度 */
+    height: 150px; /* 盒子的高度 */
+    border: 2px solid black; /* 盒子的边框颜色和宽度 */
+    padding: 10px; /* 内容与边框之间的内边距 */
+    margin: 20px; /* 盒子外部的外边距 */
+    background-color: lightgray; /* 盒子的背景颜色 */
+}
+
+/* 设置列表项的样式 */
+ul {
+    list-style-type: square; /* 列表项的符号类型 */
+}
+
+ul {
+    color: rgb(255, 106, 0); /* 列表项的字体颜色 */
+    margin: 5px 0; /* 每个列表项之间的上下间距 */
+}
